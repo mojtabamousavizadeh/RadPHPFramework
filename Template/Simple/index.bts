@@ -1,0 +1,120 @@
+<div class="container-fluid">
+
+    <!-- ============================================================== -->
+    <!-- Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+    <div class="row page-titles">
+        <div class="col-md-5 align-self-center">
+
+        </div>
+        <div class="col-md-7 align-self-center">
+
+            <ol class="breadcrumb">
+            </ol>
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card bg-info">
+                <div class="card-body">
+                    <div class="d-flex no-block">
+                        <div class="m-r-20 align-self-center"><img src="../bime/Template/Simple/public/assets/images/icon/income-w.png" alt="Income"></div>
+                        <div class="align-self-center">
+                            <h6 class="text-white m-t-10 m-b-0">Total Income</h6>
+                            <h2 class="m-t-0 text-white">953,000</h2></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card bg-success">
+                <div class="card-body">
+                    <div class="d-flex no-block">
+                        <div class="m-r-20 align-self-center"><img src="../bime/Template/Simple/public/assets/images/icon/expense-w.png" alt="Income"></div>
+                        <div class="align-self-center">
+                            <h6 class="text-white m-t-10 m-b-0">Total Expense</h6>
+                            <h2 class="m-t-0 text-white">236,000</h2></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card bg-primary">
+                <div class="card-body">
+                    <div class="d-flex no-block">
+                        <div class="m-r-20 align-self-center"><img src="../bime/Template/Simple/public/assets/images/icon/assets-w.png" alt="Income"></div>
+                        <div class="align-self-center">
+                            <h6 class="text-white m-t-10 m-b-0">Total Assets</h6>
+                            <h2 class="m-t-0 text-white">987,563</h2></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card bg-danger">
+                <div class="card-body">
+                    <div class="d-flex no-block">
+                        <div class="m-r-20 align-self-center"><img src="../bime/Template/Simple/public/assets/images/icon/staff-w.png" alt="Income"></div>
+                        <div class="align-self-center">
+                            <h6 class="text-white m-t-10 m-b-0">Total Staff</h6>
+                            <h2 class="m-t-0 text-white">987,563</h2></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex no-block">
+                    <div>
+                        <h3 class="card-title m-b-5"><span class="lstick"></span>Sales Overview </h3>
+                    </div>
+                    <div class="ml-auto">
+                        <select class="custom-select b-0">
+                            <option selected="">January 2017</option>
+                            <option value="1">February 2017</option>
+                            <option value="2">March 2017</option>
+                            <option value="3">April 2017</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="ct-sales3-chart" class="p-relative" style="height:360px;"
+                ><div class="chartist-tooltip" style="top: 179px; left: 1.5px;">
+                    <span class="chartist-tooltip-value">100</span></div>
+                    <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-bar" style="width: 100%; height: 100%;">
+                        <g class="ct-grids"><line y1="325" y2="325" x1="50" x2="459.5" class="ct-grid ct-vertical">
+
+                        </line><line y1="263" y2="263" x1="50" x2="459.5" class="ct-grid ct-vertical"></line><line y1="201" y2="201" x1="50" x2="459.5" class="ct-grid ct-vertical"></line><line y1="139" y2="139" x1="50" x2="459.5" class="ct-grid ct-vertical"></line><line y1="77" y2="77" x1="50" x2="459.5" class="ct-grid ct-vertical"></line><line y1="15" y2="15" x1="50" x2="459.5" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><line x1="67.0625" x2="67.0625" y1="325" y2="225.8" class="ct-bar" ct:value="400" style="stroke-width: 15px"></line><line x1="101.1875" x2="101.1875" y1="325" y2="295.24" class="ct-bar" ct:value="120" style="stroke-width: 15px"></line><line x1="135.3125" x2="135.3125" y1="325" y2="290.28" class="ct-bar" ct:value="140" style="stroke-width: 15px"></line><line x1="169.4375" x2="169.4375" y1="325" y2="292.76" class="ct-bar" ct:value="130" style="stroke-width: 15px"></line><line x1="203.5625" x2="203.5625" y1="325" y2="275.4" class="ct-bar" ct:value="200" style="stroke-width: 15px"></line><line x1="237.6875" x2="237.6875" y1="325" y2="287.8" class="ct-bar" ct:value="150" style="stroke-width: 15px"></line><line x1="271.8125" x2="271.8125" y1="325" y2="290.28" class="ct-bar" ct:value="140" style="stroke-width: 15px"></line><line x1="305.9375" x2="305.9375" y1="325" y2="292.76" class="ct-bar" ct:value="130" style="stroke-width: 15px"></line><line x1="340.0625" x2="340.0625" y1="325" y2="250.6" class="ct-bar" ct:value="300" style="stroke-width: 15px"></line><line x1="374.1875" x2="374.1875" y1="325" y2="295.24" class="ct-bar" ct:value="120" style="stroke-width: 15px"></line><line x1="408.3125" x2="408.3125" y1="325" y2="290.28" class="ct-bar" ct:value="140" style="stroke-width: 15px"></line><line x1="442.4375" x2="442.4375" y1="325" y2="287.8" class="ct-bar" ct:value="150" style="stroke-width: 15px"></line></g><g class="ct-series ct-series-b"><line x1="67.0625" x2="67.0625" y1="225.8" y2="176.2" class="ct-bar" ct:value="200" style="stroke-width: 15px"></line><line x1="101.1875" x2="101.1875" y1="295.24" y2="248.61599999999999" class="ct-bar" ct:value="188" style="stroke-width: 15px"></line><line x1="135.3125" x2="135.3125" y1="290.28" y2="230.26399999999995" class="ct-bar" ct:value="242" style="stroke-width: 15px"></line><line x1="169.4375" x2="169.4375" y1="292.76" y2="218.35999999999999" class="ct-bar" ct:value="300" style="stroke-width: 15px"></line><line x1="203.5625" x2="203.5625" y1="275.4" y2="225.79999999999995" class="ct-bar" ct:value="200" style="stroke-width: 15px"></line><line x1="237.6875" x2="237.6875" y1="287.8" y2="188.60000000000002" class="ct-bar" ct:value="400" style="stroke-width: 15px"></line><line x1="271.8125" x2="271.8125" y1="290.28" y2="233.23999999999995" class="ct-bar" ct:value="230" style="stroke-width: 15px"></line><line x1="305.9375" x2="305.9375" y1="292.76" y2="218.35999999999999" class="ct-bar" ct:value="300" style="stroke-width: 15px"></line><line x1="340.0625" x2="340.0625" y1="250.6" y2="200.99999999999997" class="ct-bar" ct:value="200" style="stroke-width: 15px"></line><line x1="374.1875" x2="374.1875" y1="295.24" y2="196.04000000000002" class="ct-bar" ct:value="400" style="stroke-width: 15px"></line><line x1="408.3125" x2="408.3125" y1="290.28" y2="245.64" class="ct-bar" ct:value="180" style="stroke-width: 15px"></line><line x1="442.4375" x2="442.4375" y1="287.8" y2="213.4" class="ct-bar" ct:value="300" style="stroke-width: 15px"></line></g><g class="ct-series ct-series-c"><line x1="67.0625" x2="67.0625" y1="176.2" y2="151.39999999999998" class="ct-bar" ct:value="100" style="stroke-width: 15px"></line><line x1="101.1875" x2="101.1875" y1="248.61599999999999" y2="199.01599999999996" class="ct-bar" ct:value="200" style="stroke-width: 15px"></line><line x1="135.3125" x2="135.3125" y1="230.26399999999995" y2="131.06399999999996" class="ct-bar" ct:value="400" style="stroke-width: 15px"></line><line x1="169.4375" x2="169.4375" y1="218.35999999999999" y2="69.55999999999997" class="ct-bar" ct:value="600" style="stroke-width: 15px"></line><line x1="203.5625" x2="203.5625" y1="225.79999999999995" y2="200.99999999999994" class="ct-bar" ct:value="100" style="stroke-width: 15px"></line><line x1="237.6875" x2="237.6875" y1="188.60000000000002" y2="139" class="ct-bar" ct:value="200" style="stroke-width: 15px"></line><line x1="271.8125" x2="271.8125" y1="233.23999999999995" y2="134.03999999999996" class="ct-bar" ct:value="400" style="stroke-width: 15px"></line><line x1="305.9375" x2="305.9375" y1="218.35999999999999" y2="126.6" class="ct-bar" ct:value="370" style="stroke-width: 15px"></line><line x1="340.0625" x2="340.0625" y1="200.99999999999997" y2="141.48" class="ct-bar" ct:value="240" style="stroke-width: 15px"></line><line x1="374.1875" x2="374.1875" y1="196.04000000000002" y2="146.44" class="ct-bar" ct:value="200" style="stroke-width: 15px"></line><line x1="408.3125" x2="408.3125" y1="245.64" y2="176.2" class="ct-bar" ct:value="280" style="stroke-width: 15px"></line><line x1="442.4375" x2="442.4375" y1="213.4" y2="131.56" class="ct-bar" ct:value="330" style="stroke-width: 15px"></line></g></g><g class="ct-labels"><foreignObject style="overflow: visible;" x="50" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Jan</span></foreignObject><foreignObject style="overflow: visible;" x="84.125" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Feb</span></foreignObject><foreignObject style="overflow: visible;" x="118.25" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Mar</span></foreignObject><foreignObject style="overflow: visible;" x="152.375" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Apr</span></foreignObject><foreignObject style="overflow: visible;" x="186.5" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">May</span></foreignObject><foreignObject style="overflow: visible;" x="220.625" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Jun</span></foreignObject><foreignObject style="overflow: visible;" x="254.75" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Jul</span></foreignObject><foreignObject style="overflow: visible;" x="288.875" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Aug</span></foreignObject><foreignObject style="overflow: visible;" x="323" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Sep</span></foreignObject><foreignObject style="overflow: visible;" x="357.125" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Oct</span></foreignObject><foreignObject style="overflow: visible;" x="391.25" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Nov</span></foreignObject><foreignObject style="overflow: visible;" x="425.375" y="330" width="34.125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 34px; height: 20px;">Dec</span></foreignObject><foreignObject style="overflow: visible;" y="263" x="10" height="62" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 62px; width: 30px;">0</span></foreignObject><foreignObject style="overflow: visible;" y="201" x="10" height="62" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 62px; width: 30px;">250</span></foreignObject><foreignObject style="overflow: visible;" y="139" x="10" height="62" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 62px; width: 30px;">500</span></foreignObject><foreignObject style="overflow: visible;" y="77" x="10" height="62" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 62px; width: 30px;">750</span></foreignObject><foreignObject style="overflow: visible;" y="15" x="10" height="62" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 62px; width: 30px;">1000</span></foreignObject><foreignObject style="overflow: visible;" y="-15" x="10" height="30" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 30px; width: 30px;">1250</span></foreignObject></g></svg></div>
+<!--                <div class="stats-bar">-->
+<!--                    <div class="row text-center">-->
+<!--                        <div class="col-lg-4 col-md-4">-->
+<!--                            <div class="p-20">-->
+<!--                                <h6 class="m-b-0">Total Sales</h6>-->
+<!--                                <h3 class="m-b-0">$10,345</h3>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-4 col-md-4">-->
+<!--                            <div class="p-20">-->
+<!--                                <h6 class="m-b-0">This Month</h6>-->
+<!--                                <h3 class="m-b-0">$7,589</h3>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-lg-4 col-md-4">-->
+<!--                            <div class="p-20">-->
+<!--                                <h6 class="m-b-0">This Week</h6>-->
+<!--                                <h3 class="m-b-0">$1,476</h3>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div></div>
